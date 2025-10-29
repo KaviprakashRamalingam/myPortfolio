@@ -2,11 +2,11 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Reshma Ananda Prabhakar",
-  initials: "RAP",
+  name: "Kaviprakash Ramalingam",
+  initials: "KR",
   url: "https://dillion.io",
-  location: "Cleveland, OH",
-  locationLink: "https://www.google.com/maps/place/cleveland",
+  location: "Boston, MA",
+  locationLink: "https://www.google.com/maps/place/boston",
   description:
     "Full-stack engineer with 6 years of experience building enterprise-grade web applications",
   summary:
@@ -62,19 +62,19 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "reshma.ananda1@gmail.com",
-    tel: "+12165274585",
+    email: "kavir4118@gmail.com",
+    tel: "+18574239278",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/reshmaananda",
+        url: "https://github.com/KaviprakashRamalingam",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/reshma-ananda-prabhakar-75076b79",
+        url: "https://www.linkedin.com/in/kaviprakash-ramalingam-1180717a/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -91,48 +91,47 @@ export const DATA = {
 
   work: [
     {
-      company: "Verizon",
-      href: "https://www.verizon.com",
+      company: "Renault Nissan",
+      href: "https://rntbci.in/",
       badges: [],
       location: "",
-      title: "Engineer II Software development",
-      logoUrl: "/verizon.png",
-      start: "Aug 2020",
-      end: "Dec 2023",
+      title: "Senior Software developer",
+      logoUrl: "/rntbci.jpg",
+      start: "Apr 2021",
+      end: "Aug 2023",
       description: [
-        "Full-stack engineer for Verizon B2B enterprise applications serving 32 million connections",
-        "Developed pricing and promotion engines driving 674K new business lines in the first 2 weeks of launch",
-        "Implemented a conflict resolution algorithm and recommendation system reducing 5K cart failures weekly",
-        "Drove the migration of legacy ATG refund services to optimized reactive microservices increasing 4x throughput",
-        "Built a 24-hour locker system with React kiosks enabling real-time status streaming, cutting customer service workload by 40%",
-        "Optimized telematics ordering platform, achieved 50% reduction in  data retrieval times through enhanced Redis caching",
-        "Served as SME on multiple modules driving CI/CD practices, automated testing, peer-reviewed quality gates & agile iterative releases",
-        "Recognized for leading high-impact efforts, achieving system reliability excellence and improving operational efficiency",
+        "Rebuilt AMPERE’s invoice processing with automated ETL pipelines across 1,500 supplier sites, resulting in an 80% reduction in manual corrections",
+        "Developed EV operations dashboards in React + Tailwind, optimizing Redux state slices and caching to cut UI latency by 35%",
+        "Implemented an OAuth2 authentication server with Spring Security, issuing 500K+ tokens/day with validation latency under 50ms",
+        "Optimized backend services by refactoring Spring Boot services, achieving a 35-40% reduction in transaction processing time and stabilizing system performance",
+        "Improved system reliability by defining SLIs/SLOs and deploying an observability stack, reducing recurring incidents by 30% and improving service up time",
+        "Containerized services on Kubernetes with auto-scaling rules and resource quotas, improving service up time from 97.5% to 99.3%",
       ],
     },
     {
-      company: "Toyota Motors North America(Infosys)",
-      href: "https://www.toyota.com",
+      company: "Capgemini Technologies",
+      href: "https://www.capgemini.com/us-en/",
       badges: [],
       location: "",
-      title: "Software Development Engineer",
-      logoUrl: "/toyota.png",
-      start: "Feb 2018",
-      end: "Aug 2020",
+      title: "Associate Consultant",
+      logoUrl: "/cap.png",
+      start: "Jan 2018",
+      end: "Mar 2021",
       description: [
-        "Migrated 20+ microservices to Spring 5 and Hibernate 5 enhancing annotation-based lifecycle control, enabling reactive-ready architecture, and simplifying AOP, validation, and transaction management across services",
-        "Optimized responsive React UIs with Redux & virtualization to minimize re-renders achieving sub-1s key interactions response times",
-        "Eliminated processing inefficiencies restructuring Java batch jobs & SFTP transfer layers slashing manual processing time by 65%",
-        "Built AWS Lambda workflows with DLQ integration, orchestrated via Step Functions, CloudWatch monitored & met reliability SLOs"
+        "Automated infrastructure provisioning using Terraform modules standardizing configuration management and reducing setup time from days to 2 hours",
+        "Developed client-facing React interfaces with Redux for state management and lazy loading, cutting initial bundle size by 35-40%",
+        "Implemented CI/CD pipelines with Jenkins, Docker image packaging & automated test suites, raising deployment frequency by 3-4x",
+        "Migrated legacy enterprise services from SOAP to Spring Boot REST APIs, optimizing Oracle queries and reducing average API response time by 30-35%",
+        "Designed serverless microservices with AWS Lambda, API Gateway, and DynamoDB, monitored with Prometheus + Grafana and scaled to handle 1M+ user requests",
       ],
     },
   ],
   education: [
     {
-      school: "Case Western Reserve University",
-      href: "https://case.edu/",
-      degree: "Master's Degree in Computer Science",
-      logoUrl: "/cwru_1.png",
+      school: "Northeastern University",
+      href: "https://www.northeastern.edu/",
+      degree: "Master's Degree in Information Systems",
+      logoUrl: "/neu.png",
       start: "2023",
       end: "2025",
     },
