@@ -11,7 +11,7 @@ export const DATA = {
     "Full-stack engineer with 6 years of experience building enterprise-grade web applications",
   summary:
     "I’m a developer fluent in both pixels and protocols — equally at home designing intuitive frontends and engineering resilient backend systems. With experience building enterprise-grade applications at Verizon and Toyota, I focus on delivering solutions that are user-centric, scalable, and built to perform. When I’m not deep in JavaScript or Java, I’m probably fine-tuning architectures, learning something new, or turning edge cases into clean code. Driven, detail-oriented, and always up for a challenge.",
-  avatarUrl: "/me1.png",
+  avatarUrl: "me1.png",
   skills: [
     "REACT",
     "NEXTJs",
@@ -111,7 +111,7 @@ export const DATA = {
       badges: [],
       location: "",
       title: "Associate Consultant",
-      logoUrl: "/cap.png",
+      logoUrl: "cap.png",
       start: "Jan 2018",
       end: "Mar 2021",
       description: [
@@ -128,7 +128,7 @@ export const DATA = {
       school: "Northeastern University",
       href: "https://www.northeastern.edu/",
       degree: "Master's Degree in Information Systems",
-      logoUrl: "/neu.png",
+      logoUrl: "neu.png",
       start: "2023",
       end: "2025",
     },
@@ -196,7 +196,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/ampere.mp4",
+      video: "ampere.mp4",
     },
     {
       title: "DFL",
@@ -227,7 +227,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/Cap.mp4",
+      video: "Cap.mp4",
     },
     {
       title: "Tasty Trails",
@@ -253,7 +253,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/TT.png",
+      image: "TT.png",
       video: "",
     },
     {
@@ -281,7 +281,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/CDK.png",
+      image: "CDK.png",
       video: "",
     },
   ],
