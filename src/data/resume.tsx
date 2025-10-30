@@ -93,7 +93,7 @@ export const DATA = {
       badges: [],
       location: "",
       title: "Senior Software developer",
-      logoUrl: "./rntbci.jpg",
+      logoUrl: "rntbci.jpg",
       start: "Apr 2021",
       end: "Aug 2023",
       description: [
@@ -166,7 +166,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/RG.mp4",
+      video: "RG.mp4",
     },
     {
       title: "HORSE & AMPERE ",
