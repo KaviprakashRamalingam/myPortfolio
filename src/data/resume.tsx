@@ -93,7 +93,7 @@ export const DATA = {
       badges: [],
       location: "",
       title: "Senior Software developer",
-      logoUrl: "/rntbci.jpg",
+      logoUrl: "myPortfolio/rntbci.jpg",
       start: "Apr 2021",
       end: "Aug 2023",
       description: [
